@@ -1,1 +1,2 @@
-print("Hola")
+mivar = "drancope"
+print(mivar)
