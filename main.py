@@ -1,3 +1,6 @@
 print("Hola")
-# hola soy jose damian Vargas
-# hola soy jose damian Vargas
+
+numero=
+print("hola. Esta es la tabla del ",numero)
+for i in range(10):
+    print(i*numero)
