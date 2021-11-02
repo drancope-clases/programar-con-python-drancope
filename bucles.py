@@ -35,4 +35,8 @@ while a < b:
 numero = 1 #pon aquí el número del que quieres hacer la tabla
 print("tabla de multiplicar del ", numero)
 
-
+i=0
+while (i<10):
+    print(i*numero)
+    i=i+1
+    
