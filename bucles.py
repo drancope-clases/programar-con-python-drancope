@@ -34,9 +34,7 @@ while a < b:
 # 3. Puedes hacer "commit & push" para guardar los cambios en GitHub
 numero = 1 #pon aquí el número del que quieres hacer la tabla
 print("tabla de multiplicar del ", numero)
-for i in range(1,11):
-    print(numero, "por", i, "=", (numero) * i)
-    i = 1
-    print("tabla de multiplicar del", numero)
-    while (i<10)
-    print(numero, "por", i, "=", (numero) * i)
+
+while (i<10):
+    print(numero, "por", i, "=", (numero) * (i+1))
+    i = i+1
