@@ -32,9 +32,11 @@ while a < b:
 #    propia rama del repositorio
 # 2. Resuelve el problema de la tabla de multiplicar.
 # 3. Puedes hacer "commit & push" para guardar los cambios en GitHub
+
 numero = int(input("Pon un número")) #pon aquí el número del que quieres hacer la tabla
 print("tabla de multiplicar del ", numero)
 i=1
 while i<11:
     print(numero, "por", i, "=", numero*i)
     i= i+1
+    
