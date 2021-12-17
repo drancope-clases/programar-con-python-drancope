@@ -70,7 +70,7 @@ La parte de *Entrada* es la que nos interesa aquí. Eso es un *programa*. Y al p
 
 Esta forma de escribir ceros y unos es un sistema de escribir los números. En nuestro sistema decimal, empezamos con el cero para contar las unidades, usando un *dígito* que tiene un *dibujo* distinto para cada uno de los números, del cero al nueve. Pero cuando se nos acaban nuestros diez dibujos ya no podemos continuar con un solo dígito, Tenemos que usar otro: colocamos el *siguiente* dígito delante de una nueva serie de unidades. Se trata de las decenas. Ponemos el uno como decena, y empezamos otra vez las unidades por el cero.
 
-Con los números binarios es igual, pero se nos acaban las unidades binarias antes. El cero es 0. Después viene el 1, y ya no podemos seguir, así que ponemos a la izquierda un 1 y a la derecha empezamos otra vez: 10, 11, y también hemos gastado los dígitos de la nueva columna de la izquierda. Seguiremos con 100, 101, 110, 111. 
+Con los números binarios es igual, pero se nos acaban las unidades binarias antes. El cero es 0. Después viene el 1, y ya no podemos seguir, así que ponemos a la izquierda un 1 y a la derecha empezamos otra vez: 10, 11, y también hemos gastado los dígitos de la nueva columna de la izquierda. Seguiremos con 100, 101, 110, 111.
 
     Equivalencias entre decimal y binario:
         0       0               9     1001
@@ -91,11 +91,43 @@ Cuando un microprocesador recibe cierto número, hace una operación. Otro núme
     ADD      suma un byte a un registro de acumulación
     JMP      salta la posición del programa al siguiente datos
 
+El cambio revolucionario que vino a continuación fue escribir un programa que, puesto en marcha, podía leer datos escritos en ensamblador, y convertirlos a los números correspondientes de manera automática, lo cual se conoce como ***lenguaje máquina***.
+
+### Otros lenguajes clásicos
+A partir de aquí, empezaron a aparecer lenguajes cada vez más sofisticados, que permitían representar los *algoritmos* matemáticos que resolvían distintos problemas, con unas palabras más parecidas al lenguaje humano.
+
+Los primeros lenguajes fueron el **Fortran**, el **Algol**, **Lisp**, **Cobol**, **Basic**, el lenguaje **C** y el **Pascal**.
+
+Los lenguajes se dividían en esa época en dos clases: los lenguajes ***compilados*** eran transformados por el programa que los leía en un bloque de números de *lenguaje máquina*. Los lenguajes ***interpretados*** eran puestos a funcionar por el programa intérprete mientras este programa leía los datos del texto del programa del lenguaje en cuestión.
+
+Lenguajes compilados eran el **Basic** o el **Fortran**. Lenguajes compilados eran el **C** o el **Pascal**. Algunos de estos lenguajes se utilizan todavía en la actualidad.
+
+Del lenguaje **C** derivan el lenguaje **C++**, el **C#**, y el **Java**. Posteriormente, con la aparición de Internet, se utilizaron extensamente (y todavía se usan en gran medida) lenguajes como **php*, **Perl**, **Javascript**, y los lenguajes de etiquetado para páginas web, **html**, **css**.
+
+Resulta también importante el lenguaje más utilizado para consultar bases de datos, llamado **sql** (*Standard Query Language*)
+
+#### Lenguajes actuales
+
+**Java**, **Python** y **Javascript** están entre los más utilizados en la actualidad. Existen, sin embargo, multitud de lenguajes. Deben citarse **Ruby**, **Go**, **Swift**, **Kotlin**, **Scala** y **R**, aunque nos estamos dejando sin nombrar muchos otros.
+
+Gran cantidad de los lenguajes, y esto se nota mucho en los actuales, se apoyan en lo que llamamos *librerías* y *frameworks*. Las *librerías* son fragmentos de programas que realizan trabajos típicos, necesarios con frecuencia, y que ahorran trabajo a los programadores. Los *frameworks* son conjuntos de librerías que facilitan también la escritura de programas, estableciendo una *manera* más o menos completa de diseñar estos programas.
+
+Se entiende mejor con un ejemplo: Una *librería* puede tener un trozo de programa para convertir una palabra en letras minúsculas a mayúsculas. Otra librería permite manejar motores con el ordenador.
+
+Un *framework* puede estar destinado a ofrecer al programador un conjunto de trozos de programa para construir todos los elementos visuales de un programa (ventanas, botones, barras de desplazamiento, etc.) de manera homogénea, ahorrando todo el trabajo de diseño gráfico. *Frameworks* usados en la actualidad son **Django**, **React**, **Vue.js**, **Unity** o **Qt**. Existen muchos más, desde luego.
+
+### Entorno de desarrollo Integrado (IDE)
+
+Un **IDE** es un programa que facilita escribir programas. Los *IDEs* actuales hacen que el programa que estamos escribiendo -lo que se llama **código fuente**- se vea claramente en pantalla, de manera *resaltada* (colores, principalmente). Tienen también detectores de errores, y menúes o botones para convertir el *código fuente* a *lenguaje máquina* o para *ejecutar* el código si debe interpretarse. Gestionan también los distintos archivos que forman parte de todos los programas de nuestro proyecto.
+
+Son *IDEs* ampliamente usados: **IntelliJ**, **Visual Studio Code**, **Eclipse**, **Atom**, **NetBeans**, **XCode** o **PyCharm**.
+
+Algunos *IDE* sirven para programar en un lenguaje específico. Otros sirven para distintos lenguajes.
 
 ### Códigos.
 
 #### Hexadecimal
-La primera simplificación de este sistema numérico ***binario*** es reducir cada ***palabra*** de ocho dígitos a una reducción más fácil de leer. Se trata del código ***hexadecimal***. Cada grupo de cuatro unos y ceros se puede representar con un *carácter* o *dígito* de un conjunto de 16 diferentes. Como nuestro sistema decimal numérico solamente tiene 10, lo que se hace es usar esos 10 y añadir 6 letras. Así, el grupo de voltajes 0000 representaría al número cero, y usamos ese número cero como abreviatura. El 0001 pasará a ser el número 1, y el 0010 (que es el siguiente contando en el sistema binario) será el 2, y así hasta llegar al 1001 que es el 9. El siguiente, 1010 será la letra A, el 1011 será la B, y el último, 1111 es la F.
+La primera simplificación del sistema numérico ***binario*** es reducir cada ***palabra*** de ocho dígitos a una reducción más fácil de leer. Se trata del código ***hexadecimal***. Cada grupo de cuatro unos y ceros se puede representar con un *carácter* o *dígito* de un conjunto de 16 diferentes. Como nuestro sistema decimal numérico solamente tiene 10, lo que se hace es usar esos 10 y añadir 6 letras. Así, el grupo de voltajes 0000 representaría al número cero, y usamos ese número cero como abreviatura. El 0001 pasará a ser el número 1, y el 0010 (que es el siguiente contando en el sistema binario) será el 2, y así hasta llegar al 1001 que es el 9. El siguiente, 1010 será la letra A, el 1011 será la B, y el último, 1111 es la F.
 
 Un ejemplo de programa ahora resultará más fácil de leer:
 
@@ -139,19 +171,41 @@ Un ***carácter*** es una *letra* o similar (signos de sumar, mayor que, corchet
 
 A partir de la década de 1980 se comenzaron a fabricar microprocesadores más grandes, rápidos y potentes, que podían manejar de golpe 16 *bits*, y pocos años después, 32. En la actualidad, la mayoría de los ordenadores existentes son de 64 *bits*.
 
-## Lecturas y prácticas
-### variables
+<a name="item2"></a>
+## Python
 
-Una variable es un espacio que reservamos en la memoria del ordenador para guardar datos. A ese espacio le damos un nombre para poder usarlo en el programa. Lo que guardamos dentro de la variable, podemos ir cambiándolo mientras el programa funciona.
+Es un lenguaje de programación inventado en 1991, tras varios años de diseño. Se trata de un lenguaje *interpretado*.
 
-Hay varios tipos de datos: letras, palabras y frases, números enteros, números decimales, y combinaciones de ellos.
+Resulta sencillo de aprender, porque sus normas sintácticas evitan el uso de gran cantidad de símbolos. Por ejemplo, en lenguaje **C**, cada instrucción *debe terminar* con punto y coma (;). En Python no se usa esta norma. Algunos lenguajes no obligan a escribir claramente qué trozos de programa están dentro de otros, pero **Python** obliga a esto, con lo cual se lee mejor el *código fuente*.
+
+### Elementos de un lenguaje de programación
+
+#### Palabras reservadas
+
+Todos los lenguajes utilizan una serie de palabras para dirigir lo que hace el programa.
+
+En lenguaje **Python** algunas de estas palabras son **for**, **if**, **while**, **import**, **return**, **in** o **break**. En total hay treinta y tres. Estas palabras solamente pueden usarse para la tarea que diseñaron los creadores del lenguaje.
+
+#### Operadores
+
+Son símbolos especiales para hacer operaciones con datos. Los más comunes son **+**, **-**, **\***, **/**, **<**, **>**, o **%**.
+
+Hay operadores matemáticos, como sumar o restar, y otros de comparación (mayor que y menor que). Otros comparadores son lógicos, y en Python se utilizan las palabras reservadas **and**, **or** y **not** para ello. Por último, existen los comparadores de *asignación*, como el signo **=**, que permite transferir un valor a una *variable*.
+
+#### Variables
+
+Una variable es un espacio que reservamos en la memoria del ordenador para guardar datos. A ese espacio le damos un nombre para poder usarlo en el programa. El nombre no puede ser una palabra reservada.
+
+Lo que guardamos dentro de la variable, podemos ir cambiándolo mientras el programa funciona.
+
+Hay varios tipos de datos: **letras**, **palabras y frases**, **números enteros**, **números decimales**, y **combinaciones de ellos**.
 
 para crear una variable, basta con escribir su nombre y asignarle un valor. Esto es distinto de otros lenguajes, ya que los otros nos piden decir qué tipo de variable queremos, antes de usarla.
 
 ```python
 animal = "vaca"
 ```
-Esta variable es de tipo **String**, es decir, *cadena de texto*. Debemos encerrar el contenido entre comillas. Pueden ser comillas sencillas, triples sencillas, o comillas dobles.
+Esta variable es de tipo **String**, es decir, *cadena de texto*. Debemos encerrar el contenido entre comillas. Pueden ser comillas sencillas, triples sencillas, o comillas dobles. El signo *=* hace que la cadena **"vaca"** se almacene dentro de la memoria del ordenador, y le pone la etiqueta **"animal"** a ese espacio de memoria, para que después podamos recuperar la cadena.
 
 Con estas variables podemos hacer diversas cosas. Entre ellas, mostrar mensajes a los usuarios. Se puede operar con las cadenas de texto: unirlas, buscar parte de su contenido, dividirlas, etc.
 
@@ -188,13 +242,13 @@ Puedes continuar este apartado por tu cuenta, pinchando en el enlace siguiente:
 
 [Contenidos y ejercicios de un curso](https://colab.research.google.com/github/institutohumai/cursos-python/blob/master/Introduccion/1_TiposDatos/tipos-datos.ipynb)
 
-**Identación**
+##### Indentación
 
-Identación es el truco de mover el texto hacia la derecha para que se entienda mejor el programa. En la práctica totalidad de los lenguajes, es algo que todo programador hace para ver claramente cosas como repeticiones, o qué trozos pertenecen a un bloque. En Python es obligatoria. Hay que usar cuatro espacios para que una línea pertenezca a un trozo que se repite, y la primera linea que da comienzo al bloque, debe terminar con dos puntos (:)
+Indentación es el truco de mover el texto hacia la derecha para que se entienda mejor el programa. En la práctica totalidad de los lenguajes, es algo que todo programador hace para ver claramente cosas como repeticiones, o qué trozos pertenecen a un bloque. **En Python es obligatoria**. Hay que usar cuatro espacios para que una línea pertenezca a un trozo que se repite, y la primera linea que da comienzo al bloque, debe terminar con dos puntos (:)
 
 Estos bloques se usan para controlar el flujo del programa, es decir, lo que hay que repetir, o lo que hay que hacer si se cumple una condición, o trozos que queremos reutilizar en lugar de copiarlos una y otra vez.
 
-### Listas
+#### Listas
 
 Una lista es un tipo especial de variable, que guarda varios datos, en lugar de uno solo. Cada dato tiene un índice, que sirve para poder acceder a leer o cambiar el contenido de ese dato. Las listas se crean usando *corchetes* [].
 ```python
@@ -202,3 +256,11 @@ colores = ['rojo', 'azul', 'verde', 'amarillo', 'violeta', 'naranja']
 print(colores[2])
 ```
 > verde
+
+#### Funciones
+
+Una función es una sección de un programa, que realiza una tarea de manera independiente al resto del programa.
+
+La ventaja de usar una función es que ese fragmento se puede utilizar en distintas partes del programa y no es necesario volver a escribirlo. Conseguimos más facilidad de lectura y reducimos la posibilidad de error.
+
+Para crear una función se utiliza la palabra reservada **def**.
