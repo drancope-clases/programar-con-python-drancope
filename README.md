@@ -29,7 +29,11 @@ Para sincronizar el trabajo que se hace, se utiliza un programa, **git**, que no
 <a name="item2"></a>
 ## Lenguajes
 
+### Números binarios
+
 Un ordenador trabaja con electricidad. Dentro, la parte más importante es el **microprocesador**. Tiene millones de circuitos electrónicos dentro. Está diseñado de manera que, uno tras otro, van pasando millonésimas de segundo en las que un cable enciende un voltaje y lo apaga, para que cada vez que se enciende, en un conjunto de cables *"pongamos"* encendidos o apagados los voltios, y según sea esta combinación de voltios, se lleven a esos circuitos electrónicos, y se produzca un resultado concreto, que aparece en forma de voltajes, encendidos o apagados, en ese mismo conjunto de cables.
+
+Cada una de estas millonésimas de segundo está controlada por un circuito eléctrico que oscila rapidísimamente entre encendido y apagado. El circuito se llama ***reloj***, y cada oscilación es un ***ciclo de reloj***.
 
 Para representar el voltaje encendido, se usa normalmente el número **1**, mientras que el apagado es el **0**. De esa manera, podríamos escribir los voltajes que van ocurriendo en cada instante de manera parecida a esta:
 
@@ -64,6 +68,30 @@ Es tremendamente difícil de leer, de modo que en primer lugar nos conviene sepa
 
 La parte de *Entrada* es la que nos interesa aquí. Eso es un *programa*. Y al principio se escribían así. Hace ya más de 70 años. Y es tan complicado de entender, y puede provocar tantos errores de diseño, que ya desde el principio empezaron a usarse métodos para facilitar esto.
 
+Esta forma de escribir ceros y unos es un sistema de escribir los números. En nuestro sistema decimal, empezamos con el cero para contar las unidades, usando un *dígito* que tiene un *dibujo* distinto para cada uno de los números, del cero al nueve. Pero cuando se nos acaban nuestros diez dibujos ya no podemos continuar con un solo dígito, Tenemos que usar otro: colocamos el *siguiente* dígito delante de una nueva serie de unidades. Se trata de las decenas. Ponemos el uno como decena, y empezamos otra vez las unidades por el cero.
+
+Con los números binarios es igual, pero se nos acaban las unidades binarias antes. El cero es 0. Después viene el 1, y ya no podemos seguir, así que ponemos a la izquierda un 1 y a la derecha empezamos otra vez: 10, 11, y también hemos gastado los dígitos de la nueva columna de la izquierda. Seguiremos con 100, 101, 110, 111. 
+
+    Equivalencias entre decimal y binario:
+        0       0               9     1001
+        1       1              10     1010
+        2      10              11     1011
+        3      11              12     1100
+        4     100              13     1101
+        5     101              14     1110
+        6     110              15     1111
+        7     111              16    10000
+        8    1000              17    10001    ...etc.
+
+### El lenguaje *ensamblador*
+
+Cuando un microprocesador recibe cierto número, hace una operación. Otro número, otra operación distinta. Y un microprocesador distinto normalmente tendrá para esas operaciones números distintos. Es una tarea muy muy difícil recordar qué operación hace cada número en cada microprocesador. Así que se asocia una operación con una abreviatura en letras:
+
+    MOV      mueve un byte
+    ADD      suma un byte a un registro de acumulación
+    JMP      salta la posición del programa al siguiente datos
+
+
 ### Códigos.
 
 #### Hexadecimal
@@ -90,6 +118,26 @@ Pero no es más fácil de entender. Para eso tendremos que conocer qué obliga a
  En los primeros años se utilizó extensamente el código ***Ascii*** para esta tarea. En este código se hace una equivalencia entre los números binarios que representan el voltaje en el ordenador con las letras, símbolos y números necesarios para escribir texto.
 
  ![código Ascii](Imagenes/ascii_parte.png)
+
+Esta tabla muestra solo los caracteres que se pueden imprimir. Hay otros (del cero al 31) que son códigos de control, como el *retorno de carro*, el *fin de línea*, *retroceso*, etc.
+
+En la actualidad se usan otros conjuntos de códigos, que incluyen muchas más letras, que son necesarias en distintos idiomas. Se trata de los códigos **utf**, y otros. Estos códigos utilizan varios grupos de 8 unos y ceros para cada *carácter*.
+
+#### Bits, bytes, números enteros y caracteres.
+
+Un ***bit*** es la cantidad más pequeña posible de información. Es la respuesta más corta que se puede dar a una pregunta sencilla. Es **sí** o **no**. ¿La luz está encendida? Solamente puede haber dos posibilidades: o está encendida o no lo está.
+
+Los *bits* se representan con un sistema numérico binario: 0 y 1. Al usar este código en un ordenador, un cable puede tener el voltaje encendido o apagado. Se diseñan los ordenadores para que no puedan tener el voltaje a medio encender, porque si no, no podrían hacerse los cálculos usando el lenguaje binario.
+
+Los *bits* se agrupan en conjuntos. Hay conjuntos de cuatro, pero son poco útiles, y grupos de ocho. Un grupo de 8 *bits* recibe el nombre de ***byte***. Durante muchos años los ordenadores se diseñaron para utilizar *bytes* como unidad básica que se operaba de una vez. Esto significa que la cantidad de cables de datos era de 8. El microprocesador tenía 8 *pines* o *patillas* de datos para conectarse a la placa base.
+
+Con 1 *byte*, es decir, 8 *bits*, pueden manejarse números que van desde el 0 hasta el 255. De una tacada. O sea, con un solo *ciclo de reloj* del microprocesador.
+
+Pero no es suficiente. Necesitamos hacer operaciones con números más grandes. Y esto implica que tendremos que utilizar *más bytes* para representar números. Los **números enteros** suelen utilizar 4 *bytes*. Y eso implica, a su vez, que los microprocesadores tendrán que gastar *más ciclos de reloj* para realizar sumas, restas o multiplicaciones con números enteros.
+
+Un ***carácter*** es una *letra* o similar (signos de sumar, mayor que, corchetes, el punto, la coma, el espacio, y los *dibujos* de los números, etc.). Utilizando el código Ascii, un carácter se puede guardar dentro de un único *byte*.
+
+A partir de la década de 1980 se comenzaron a fabricar microprocesadores más grandes, rápidos y potentes, que podían manejar de golpe 16 *bits*, y pocos años después, 32. En la actualidad, la mayoría de los ordenadores existentes son de 64 *bits*.
 
 ## Lecturas y prácticas
 ### variables
