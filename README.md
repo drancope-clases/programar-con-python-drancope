@@ -5,15 +5,15 @@ Introducción básica a **Python** y programas de prueba sencillos, para compart
 
 Basic introduction to **Python** and simple test program to share with pupils to engage in accesing to online run environments, notebooks, Github, and different sort of files.
 
-## Índice
+## Documentos de profundización
 
-* [Repositorios y **GitHub**](#item1)
+* [Repositorios y **GitHub**](./repositorios_github.md)
 
-* [Lenguajes](#item2)
-
-* [Intérpretes](./lenguajes_programacion.md)
+* [Lenguajes](./lenguajes_programacion.md)
 
 * [Python](./elementos_python.md)
+
+* [Intérpretes](#item3)
 
 <a name="item1"></a>
 ## Repositorios y **GitHub**
