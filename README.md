@@ -40,7 +40,7 @@ Pero estas herramientas nos exigen todos esos campos de trabajo que hemos escrit
 
 * [Lenguajes](./lenguajes_programacion.html)
 
-* [Python](./elementos_python.html)
+* <a href="./elementos_python.html" onClick="return popup(this, 'Elementos')">Python</a>
 
 * [Intérpretes](#item3)
 
