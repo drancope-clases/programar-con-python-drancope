@@ -13,7 +13,7 @@
 
 ![Primeros Pasos - imagen](Imagenes/PrimerospasosconPython.png)
 
-# python: Primeros pasos
+# python: Primeros pasos <a href="https://drancope-clases.github.io/programar-con-python-drancope/README.html" onClick="return popup(this, 'Elementos')">Versión webpage</a>
 
 Introducción básica a **Python** y programas de prueba sencillos, para compartir con los alumnos y empezar con tareas de usar entornos de ejecución online, *notebooks*, GitHub y distintas clases de archivos y programas que necesitarán en sus tareas.
 
@@ -44,7 +44,9 @@ Y además de conocer los programas que utilizaremos, de conocer nuestro Sistema 
 
 #### Plan de trabajo.
 
-<a href="https://drancope-clases.github.io/programar-con-python-drancope/recomendaciones.html" onClick="return popup(this, 'Elementos')">Recomendaciones</b></a>
+<a href="https://drancope-clases.github.io/programar-con-python-drancope/recomendaciones.html" onClick="return popup(this, 'Elementos')">Recomendaciones</a>
+
+Algunos de los siguientes enlaces son "*notebooks*". Se trata de documentos interactivos para abrirlos con un servidor de notebooks, como [**Jupyter**](https://jupyter.org). Una forma de instalar **Jupyter**, con todas las cosas que necesita (especialmente, Python) puede ser descargar [**Anaconda**](https://www.anaconda.com/products/individual) en su versión *individual*, que trae además un montón de añadidos que pueden hacernos falta, y encima los maneja en un entorno de ejecución cerrado, para que no interfieran con otros programas de nuestro ordenador. También podemos usar un servidor online.
 
 ## Documentos de profundización
 

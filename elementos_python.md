@@ -1,5 +1,6 @@
-# Python:
-## Elementos de un lenguaje de programación
+![Primeros Pasos - imagen](Imagenes/elementos.png)
+
+## Elementos del lenguaje Python
 
 ### Palabras reservadas
 
