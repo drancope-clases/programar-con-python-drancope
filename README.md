@@ -1,4 +1,17 @@
+<header><SCRIPT TYPE="text/javascript">
+  function popup(mylink, windowname) {
+    if (! window.focus)return true;
+    var href;
+    if (typeof(mylink) == 'string') href=mylink;
+    else href=mylink.href;
+    window.open(href, windowname, 'width=400,height=200,scrollbars=yes');
+    return false;
+  }
+</SCRIPT></header>
+
 [![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=5312652&assignment_repo_type=AssignmentRepo)
+
+
 # python: Primeros pasos
 
 Introducción básica a **Python** y programas de prueba sencillos, para compartir con los alumnos y empezar con tareas de usar entornos de ejecución online, *notebooks*, GitHub y distintas clases de archivos.
@@ -23,11 +36,11 @@ Pero estas herramientas nos exigen todos esos campos de trabajo que hemos escrit
 
 ## Documentos de profundización
 
-* [Repositorios y **GitHub**](./repositorios_github.md)
+* [Repositorios y **GitHub**](./repositorios_github.html)
 
-* [Lenguajes](./lenguajes_programacion.md)
+* [Lenguajes](./lenguajes_programacion.html)
 
-* [Python](./elementos_python.md)
+* [Python](./elementos_python.html)
 
 * [Intérpretes](#item3)
 
