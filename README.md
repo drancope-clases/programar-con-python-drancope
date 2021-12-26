@@ -4,6 +4,22 @@
 Introducción básica a **Python** y programas de prueba sencillos, para compartir con los alumnos y empezar con tareas de usar entornos de ejecución online, *notebooks*, GitHub y distintas clases de archivos.
 
 Basic introduction to **Python** and simple test program to share with pupils to engage in accesing to online run environments, notebooks, Github, and different sort of files.
+## Idea general de este curso
+
+La computación abarca muchos campos de trabajo:
+- Cómo se juntan varios elementos para formar un ordenadores.
+- Instalar y configurar los sistemas operativos y los programas que funcionan sobre ellos.
+- Conocer y usar aplicaciones para realizar el trabajo diario (edición de documentos, de fotografía o video, controlar el almacén de un negocio)
+- Navegar y comunicarse en Internet: conocer las páginas web que nos proporcionan servicios y controlar nuestras cuentas de usuario en estas páginas.
+- ...
+
+No están reflejadas todas las posibilidades en esa lista. No hemos hablado de tareas como *crear páginas web*, *reparar y mantener un sistema automático* (por ejemplo, ascensores, puertas deslizantes, alarmas, ...), *almacenar y analizar grandes cantidades de datos* (para conocer la meteorología, para reconocer enfermedades a través de millones de radiografías, preferencias de compras de miles de usuarios, ...).
+
+Todo esto que acabo de poner como ejemplos se resume simplemente en lo siguiente:
+
+- Resolver problemas con herramientas de computación
+
+Pero estas herramientas nos exigen todos esos campos de trabajo que hemos escrito en la primera lista.
 
 ## Documentos de profundización
 
