@@ -9,9 +9,6 @@
   }
 </SCRIPT>
 
-
-Read more: https://html.com/javascript/popup-windows/#ixzz7G9g94S2B
-
 # Repositorios y **GitHub**
 
 Un repositorio es una carpeta en la que guardamos un proyecto, normalmente programas, y que debe estar sincronizada entre nuestro ordenador y los ordenadores de otros colaboradores.
