@@ -13,7 +13,7 @@
 
 ![Primeros Pasos - imagen](Imagenes/programar_con_python.png)
 
-# python: Primeros pasos <a href="https://drancope-clases.github.io/programar-con-python-drancope"  style="color:0xfafafa;">Versión webpage</a>
+# python: Primeros pasos <a href="https://drancope-clases.github.io/programar-con-python-drancope"  style="color:#fafafa;">Versión webpage</a>
 
 Introducción básica a **Python** y programas de prueba sencillos, para compartir con los alumnos y empezar con tareas de usar entornos de ejecución online, *notebooks*, GitHub y distintas clases de archivos y programas que necesitarán en sus tareas.
 
