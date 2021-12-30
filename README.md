@@ -11,7 +11,7 @@
 </SCRIPT>
 </head>
 
-![Primeros Pasos - imagen](Imagenes/PrimerospasosconPython.png)
+![Primeros Pasos - imagen](Imagenes/programar_con_python.png)
 
 # python: Primeros pasos <a href="https://drancope-clases.github.io/programar-con-python-drancope/README.html" onClick="return popup(this, 'Elementos')">Versión webpage</a>
 
@@ -56,4 +56,4 @@ Algunos de los siguientes enlaces son "*notebooks*". Se trata de documentos inte
 
 * <a href="https://drancope-clases.github.io/programar-con-python-drancope/elementos_python.html" onClick="return popup(this, 'Elementos')">Python</a>
 
-* [Intérpretes](#item3)
+* <a href="https://drancope-clases.github.io/programar-con-python-drancope/ides.html" onClick="return popup(this, 'Entornos de desarrollo \(IDE\)')">Entornos de desarrollo (IDE)</a>

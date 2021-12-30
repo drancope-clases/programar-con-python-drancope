@@ -1,4 +1,4 @@
-![Primeros Pasos - imagen](Imagenes/elementos.png)
+![Primeros Pasos - imagen](Imagenes/Elementos_python.png)
 
 ## Elementos del lenguaje Python
 

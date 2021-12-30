@@ -1,3 +1,4 @@
+![Lenguajes](Imagenes/elementos.png)
 # Lenguajes de programación
 
 ## Números binarios
@@ -141,3 +142,5 @@ Pero no es suficiente. Necesitamos hacer operaciones con números más grandes. 
 Un ***carácter*** es una *letra* o similar (signos de sumar, mayor que, corchetes, el punto, la coma, el espacio, y los *dibujos* de los números, etc.). Utilizando el código Ascii, un carácter se puede guardar dentro de un único *byte*.
 
 A partir de la década de 1980 se comenzaron a fabricar microprocesadores más grandes, rápidos y potentes, que podían manejar de golpe 16 *bits*, y pocos años después, 32. En la actualidad, la mayoría de los ordenadores existentes son de 64 *bits*.
+
+## Algoritmos
