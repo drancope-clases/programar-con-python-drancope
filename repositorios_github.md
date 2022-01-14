@@ -6,7 +6,7 @@ Un repositorio es una carpeta en la que guardamos un proyecto, normalmente progr
 
 **GitHub** es un sitio de Internet, que permite guardar repositorios. Es uno de los más utilizados del mundo.
 
-<a href="popup.html" onClick="return popup(this, 'Elementos')">my popup</a>
+<b>hola  </b>
 
 Para sincronizar el trabajo que se hace, se utiliza un programa, **git**, que nos obliga a trabajar de una manera especial:
 - Creamos copias del repositorio original, bien para tener una copia de nuestra propiedad, o bien para hacer una copia desde Internet a nuestro ordenador.
