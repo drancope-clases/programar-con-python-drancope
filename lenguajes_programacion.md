@@ -72,9 +72,11 @@ Los primeros lenguajes fueron el **Fortran**, el **Algol**, **Lisp**, **Cobol**,
 
 Los lenguajes se dividían en esa época en dos clases: los lenguajes ***compilados*** eran transformados por el programa que los leía en un bloque de números de *lenguaje máquina*. Los lenguajes ***interpretados*** eran puestos a funcionar por el programa intérprete mientras este programa leía los datos del texto del programa del lenguaje en cuestión.
 
-Lenguajes compilados eran el **Basic** o el **Fortran**. Lenguajes compilados eran el **C** o el **Pascal**. Algunos de estos lenguajes se utilizan todavía en la actualidad.
+Lenguajes interpretados eran el **Basic** o el **Fortran**. Lenguajes compilados eran el **C** o el **Pascal**. Algunos de estos lenguajes se utilizan todavía en la actualidad.
 
-Del lenguaje **C** derivan el lenguaje **C++**, el **C#**, y el **Java**. Posteriormente, con la aparición de Internet, se utilizaron extensamente (y todavía se usan en gran medida) lenguajes como **php*, **Perl**, **Javascript**, y los lenguajes de etiquetado para páginas web, **html**, **css**.
+Una lista más completa la puedes leer en este blog: [lenguajes interpretados vs interpretados](https://otroespacioblog.wordpress.com/2012/09/02/lenguajes-de-programacion-compilados-vs-interpretados/)
+
+Del lenguaje **C** derivan el lenguaje **C++**, el **C#**, y el **Java**. Posteriormente, con la aparición de Internet, se utilizaron extensamente (y todavía se usan en gran medida) lenguajes como **php**, **Perl**, **Javascript**, y los lenguajes de etiquetado para páginas web, **html**, **css**.
 
 Resulta también importante el lenguaje más utilizado para consultar bases de datos, llamado **sql** (*Standard Query Language*)
 
@@ -144,3 +146,13 @@ Un ***carácter*** es una *letra* o similar (signos de sumar, mayor que, corchet
 A partir de la década de 1980 se comenzaron a fabricar microprocesadores más grandes, rápidos y potentes, que podían manejar de golpe 16 *bits*, y pocos años después, 32. En la actualidad, la mayoría de los ordenadores existentes son de 64 *bits*.
 
 ## Algoritmos
+
+Un algoritmo es la expresión de todos los pasos necesarios para resolver un problema.
+
+Típicamente, cualquier problema matemático tiene una expresión en el lenguaje matemático, utilizando un lenguaje algebráico. Pero, además, una vez que conocemos la "ley" matemática que describe un fenómeno, cada problema que puede resolverse con esa "ley", tiene que utilizar una secuencia de operaciones para alcanzar la solución.
+
+El algoritmo son esas operaciones.
+
+Existen algoritmos puramente matemáticos, y otros que sirven para ordenar datos, o para tomar decisiones.
+
+Los lenguajes de programación están diseñados para poder convertir los algoritmos al lenguaje máquina de los ordenadores.
