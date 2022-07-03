@@ -1,7 +1,8 @@
 ## Tabla
 
-| Column 1 Header | Column 2 Header | Column 3 Header |
-| --------------- | --------------- | --------------- |
-| Row 1 Column 1 | Row 1 Column 2 | Row 1 Column 3 |
-| Row 2 Column 1 | Row 2 Column 2 | Row 2 Column 3 |
-| Row 3 Column 1 | Row 3 Column 2 | Row 3 Column 3 |
+
+| <img src="Imagenes/elementos.png" width="400">  | b |
+| --- |--- |
+| <img src="Imagenes/gedit1.jpg" width="400"> | Row 1 Column 2 |
+| Row 2 Column 1 | Row 2 Column 2 |
+| Row 3 Column 2 | <ul><li>lista <li>lista<ul><li>lista</ul></ul>|
